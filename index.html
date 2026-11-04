@@ -3,215 +3,168 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-          content="Learn computer networking, routing, switching and network security at NetSecure Academy.">
-
-    <title>NetSecure Academy | Networking & Security</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Super Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- HEADER -->
-    <header class="header" id="home">
-        <div class="container nav">
+    <header class="site-header">
+        <div class="container header-content">
 
-            <a href="#home" class="logo">
-                NetSecure<span>Academy</span>
+            <a class="logo" href="#home">
+                Moon <span>Super Store</span>
             </a>
 
-            <nav aria-label="Main navigation">
+            <nav class="navbar">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
-                <a href="#courses">Courses</a>
-                <a href="#labs">Labs</a>
-                <a href="#gallery">Gallery</a>
+                <a href="#products">Products</a>
                 <a href="#contact">Contact</a>
             </nav>
 
         </div>
     </header>
 
-
     <main>
 
-        <!-- HERO SECTION -->
-        <section class="hero">
+        <!-- Home Section -->
+        <section class="hero" id="home">
             <div class="container hero-content">
 
                 <div class="hero-text">
-
-                    <p class="tag">
-                        LEARN • PRACTICE • SECURE
+                    <p class="small-heading">
+                        WELCOME TO OUR STORE
                     </p>
 
                     <h1>
-                        Build Your Future in
-                        <span>Computer Networking</span>
+                        Everything You Need,
+                        <span>In One Place</span>
                     </h1>
 
                     <p>
-                        Discover the world of computer networks.
-                        Learn networking fundamentals, practise
-                        network configuration, and develop skills
-                        for your future IT career.
+                        Welcome to Moon Super Store.
+                        We provide daily-use grocery items
+                        and household products for our
+                        local community.
                     </p>
 
-                    <a href="#courses" class="btn">
-                        Explore Courses
+                    <a class="main-button" href="#products">
+                        Explore Products
                     </a>
-
                 </div>
 
                 <div class="hero-image">
-                    <img
-                        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=85"
-                        alt="Professional networking servers and equipment"
-                        fetchpriority="high">
+                    <img src="images/shop.png"
+                         alt="Moon Super Store">
                 </div>
 
             </div>
         </section>
 
-
-        <!-- ABOUT SECTION -->
-        <section class="section about" id="about">
-            <div class="container about-layout">
+        <!-- About Section -->
+        <section class="about section-space" id="about">
+            <div class="container about-content">
 
                 <div>
-                    <p class="tag">ABOUT OUR ACADEMY</p>
+                    <p class="small-heading">
+                        ABOUT OUR SHOP
+                    </p>
 
-                    <h2>
-                        Learn Networking with Practical Skills
-                    </h2>
+                    <h2>Your Local General Store</h2>
 
                     <p>
-                        NetSecure Academy is a learning platform
-                        for students interested in computer
-                        networking and information technology.
+                        Moon Super Store is a local general
+                        store located in Warana Ahmad Abad,
+                        Karak, Khyber Pakhtunkhwa, Pakistan.
                     </p>
 
                     <p>
-                        We focus on networking fundamentals,
-                        IP addressing, routing, switching,
-                        network security and practical learning.
-                    </p>
-
-                    <p>
-                        Our mission is to help students build
-                        strong technical knowledge and prepare
-                        for future opportunities in the IT industry.
+                        Our aim is to make everyday shopping
+                        easy and convenient for our customers.
+                        We offer grocery, snacks, beverages
+                        and household essentials.
                     </p>
                 </div>
 
-                <!-- PERSONAL PROFILE -->
-                <div class="profile-card">
+                <aside class="shop-info">
+                    <h3>Shop Information</h3>
 
-                    <img
-                        src="https://eimrglobal.org/wp-content/uploads/2026/02/GitHub-for-student-entrepreneurs-scaled.jpg"
-                        alt="My profile picture"
-                        loading="lazy">
+                    <p><strong>Owner:</strong> Abdul Haseeb</p>
 
-                    <h3>ABDUL HASEEB</h3>
+                    <p><strong>Location:</strong>
+                        Warana Ahmad Abad, Karak, KP
+                    </p>
 
-                    <p>Networking Student</p>
-
-                    <small>
-                        Computer Networking 
-                    </small>
-
-                </div>
+                    <p><strong>Phone:</strong>
+                        0370 5883563
+                    </p>
+                </aside>
 
             </div>
         </section>
 
-
-        <!-- COURSES SECTION -->
-        <section class="section courses" id="courses">
+        <!-- Products Section -->
+        <section class="products section-space" id="products">
             <div class="container">
 
                 <div class="section-heading">
-
-                    <p class="tag">OUR PROGRAMS</p>
-
-                    <h2>Explore Our Courses</h2>
-
-                    <p>
-                        Develop your knowledge with essential
-                        computer networking courses.
-                    </p>
-
+                    <p class="small-heading">WHAT WE OFFER</p>
+                    <h2>Our Product Categories</h2>
+                    <p>Some common items available at our store.</p>
                 </div>
 
-                <div class="card-grid">
+                <div class="product-grid">
 
-                    <!-- COURSE 1 -->
-                    <article class="card">
-
-                        <img
-                            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=80"
-                            alt="Computer hardware and networking components"
-                            loading="lazy">
+                    <article class="product-card">
+                        <img src="images/grocery.jpg"
+                             alt="Grocery items">
 
                         <div class="card-content">
-
-                            <h3>Networking Fundamentals</h3>
-
+                            <h3>Grocery Items</h3>
                             <p>
-                                Learn the OSI model, TCP/IP,
-                                IP addressing, network topologies
-                                and essential networking devices.
+                                Daily kitchen essentials
+                                and food items.
                             </p>
-
                         </div>
                     </article>
 
-
-                    <!-- COURSE 2 -->
-                    <article class="card">
-
-                        <img
-                            src="https://images.unsplash.com/photo-1551808525-51a94da548ce?auto=format&fit=crop&w=700&q=80"
-                            alt="Network equipment and cables"
-                            loading="lazy">
+                    <article class="product-card">
+                        <img src="images/snacks.jpg"
+                             alt="Snacks and biscuits">
 
                         <div class="card-content">
-
-                            <h3>Routing and Switching</h3>
-
+                            <h3>Snacks & Biscuits</h3>
                             <p>
-                                Understand routers, switches,
-                                VLANs, routing protocols and
-                                basic network configuration.
+                                Snacks, biscuits and treats
+                                for everyone.
                             </p>
-
                         </div>
                     </article>
 
-
-                    <!-- COURSE 3 -->
-                    <article class="card">
-
-                        <img
-                            src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=700&q=80"
-                            alt="Cybersecurity and digital protection"
-                            loading="lazy">
+                    <article class="product-card">
+                        <img src="images/drinks.jpg"
+                             alt="Beverages and drinks">
 
                         <div class="card-content">
-
-                            <h3>Network Security</h3>
-
+                            <h3>Drinks</h3>
                             <p>
-                                Learn about firewalls, secure
-                                network access, cyber threats
-                                and essential security practices.
+                                Different beverages and
+                                refreshment items.
                             </p>
+                        </div>
+                    </article>
 
+                    <article class="product-card">
+                        <img src="images/household.jpg"
+                             alt="Household products">
+
+                        <div class="card-content">
+                            <h3>Household Items</h3>
+                            <p>
+                                Useful products for everyday
+                                home needs.
+                            </p>
                         </div>
                     </article>
 
@@ -219,161 +172,56 @@
             </div>
         </section>
 
-
-        <!-- PRACTICAL LABS -->
-        <section class="section labs" id="labs">
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <p class="tag">HANDS-ON EXPERIENCE</p>
-
-                    <h2>Practical Networking Labs</h2>
-
-                    <p>
-                        Learn by practising with popular
-                        networking and troubleshooting tools.
-                    </p>
-
-                </div>
-
-                <div class="lab-grid">
-
-                    <article class="lab-item">
-
-                        <span>01</span>
-
-                        <h3>Cisco Packet Tracer</h3>
-
-                        <p>
-                            Build virtual networks and practise
-                            router, switch and IP configurations.
-                        </p>
-
-                    </article>
-
-
-                    <article class="lab-item">
-
-                        <span>02</span>
-
-                        <h3>Wireshark</h3>
-
-                        <p>
-                            Analyse network packets and understand
-                            how devices communicate.
-                        </p>
-
-                    </article>
-
-
-                    <article class="lab-item">
-
-                        <span>03</span>
-
-                        <h3>Linux Networking</h3>
-
-                        <p>
-                            Practise network commands, IP tools
-                            and basic troubleshooting techniques.
-                        </p>
-
-                    </article>
-
-                </div>
-            </div>
-        </section>
-
-
-        <!-- GALLERY SECTION -->
-        <section class="section gallery" id="gallery">
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <p class="tag">OUR GALLERY</p>
-
-                    <h2>Explore Networking Technology</h2>
-
-                    <p>
-                        Discover the technology behind modern
-                        computer networks and cybersecurity.
-                    </p>
-
-                </div>
-
-                <div class="gallery-grid">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=80"
-                        alt="Computer components"
-                        loading="lazy">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=700&q=85"
-                        alt="Network server room"
-                        loading="lazy">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1551808525-51a94da548ce?auto=format&fit=crop&w=700&q=80"
-                        alt="Networking equipment"
-                        loading="lazy">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=700&q=80"
-                        alt="Cybersecurity technology"
-                        loading="lazy">
-
-                </div>
-            </div>
-        </section>
-
-
-        <!-- CONTACT SECTION -->
-        <section class="contact" id="contact">
+        <!-- Contact Section -->
+        <section class="contact section-space" id="contact">
             <div class="container contact-content">
 
                 <div>
+                    <p class="small-heading">GET IN TOUCH</p>
 
-                    <p class="tag">GET IN TOUCH</p>
-
-                    <h2>
-                        Start Your Networking Journey
-                    </h2>
+                    <h2>Visit Moon Super Store</h2>
 
                     <p>
-                        Have questions about computer networking?
-                        Get in touch with us to learn more.
+                        We welcome you to visit our shop
+                        for your daily shopping needs.
+                    </p>
+                </div>
+
+                <div class="contact-details">
+
+                    <p>
+                        <strong>Owner:</strong> Abdul Haseeb
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:03705883563">
+                            0370 5883563
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>Address:</strong>
+                        Warana Ahmad Abad, Karak, KP, Pakistan
                     </p>
 
                 </div>
-
-                <a
-                    href="mailto:haseeb919735@gmail.com"
-                    class="btn btn-light">
-
-                    Contact Us
-
-                </a>
 
             </div>
         </section>
 
     </main>
 
-
-    <!-- FOOTER -->
-    <footer class="footer">
+    <!-- Footer -->
+    <footer class="site-footer">
         <div class="container footer-content">
 
             <p>
-                &copy; 2026 NetSecure Academy.
-                All rights reserved.
+                © 2026 Moon Super Store.
+                All Rights Reserved.
             </p>
 
-            <p>
-                Learn Networking. Build Skills. Secure Networks.
-            </p>
+            <p>Designed by Abdul Haseeb</p>
 
         </div>
     </footer>
